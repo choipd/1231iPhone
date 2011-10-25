@@ -7,6 +7,7 @@
 //
 
 #import "TVTAppDelegate.h"
+#import "MyTableViewController.h"
 
 @implementation TVTAppDelegate
 
@@ -17,6 +18,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    MyTableViewController* vc = [[MyTableViewController alloc] initWithNibName:@"MyTableViewController" bundle:nil];
+    
+    [self.window setRootViewController:vc];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

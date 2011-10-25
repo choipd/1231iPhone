@@ -13,6 +13,8 @@
 		408598411457126D00221AFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4085983F1457126D00221AFA /* InfoPlist.strings */; };
 		408598431457126D00221AFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 408598421457126D00221AFA /* main.m */; };
 		408598471457126D00221AFA /* TVTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 408598461457126D00221AFA /* TVTAppDelegate.m */; };
+		40859854145712B000221AFA /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40859852145712B000221AFA /* MyTableViewController.m */; };
+		40859855145712B000221AFA /* MyTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40859853145712B000221AFA /* MyTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,15 @@
 		408598361457126D00221AFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		408598381457126D00221AFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4085983A1457126D00221AFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4085983E1457126D00221AFA /* TableViewTest-Info.plist */ = {isa = PBXFileReference; path = "TableViewTest-Info.plist"; sourceTree = "<group>"; };
+		4085983E1457126D00221AFA /* TableViewTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewTest-Info.plist"; sourceTree = "<group>"; };
 		408598401457126D00221AFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		408598421457126D00221AFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		408598441457126D00221AFA /* TableViewTest-Prefix.pch */ = {isa = PBXFileReference; path = "TableViewTest-Prefix.pch"; sourceTree = "<group>"; };
-		408598451457126D00221AFA /* TVTAppDelegate.h */ = {isa = PBXFileReference; path = TVTAppDelegate.h; sourceTree = "<group>"; };
+		408598441457126D00221AFA /* TableViewTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewTest-Prefix.pch"; sourceTree = "<group>"; };
+		408598451457126D00221AFA /* TVTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVTAppDelegate.h; sourceTree = "<group>"; };
 		408598461457126D00221AFA /* TVTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVTAppDelegate.m; sourceTree = "<group>"; };
+		40859851145712B000221AFA /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		40859852145712B000221AFA /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		40859853145712B000221AFA /* MyTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,9 @@
 				408598451457126D00221AFA /* TVTAppDelegate.h */,
 				408598461457126D00221AFA /* TVTAppDelegate.m */,
 				4085983D1457126D00221AFA /* Supporting Files */,
+				40859851145712B000221AFA /* MyTableViewController.h */,
+				40859852145712B000221AFA /* MyTableViewController.m */,
+				40859853145712B000221AFA /* MyTableViewController.xib */,
 			);
 			path = TableViewTest;
 			sourceTree = "<group>";
@@ -142,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				408598411457126D00221AFA /* InfoPlist.strings in Resources */,
+				40859855145712B000221AFA /* MyTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +163,7 @@
 			files = (
 				408598431457126D00221AFA /* main.m in Sources */,
 				408598471457126D00221AFA /* TVTAppDelegate.m in Sources */,
+				40859854145712B000221AFA /* MyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +267,7 @@
 				4085984C1457126D00221AFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
